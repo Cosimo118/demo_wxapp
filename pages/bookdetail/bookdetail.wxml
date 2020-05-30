@@ -1,0 +1,10 @@
+<view>good</view>
+<!-- <view class="book-info" >
+  <view>书名:{{item.bookname}}</view>
+  <view>作者:{{item.author}}\n</view>
+  <view>价格:{{item.price}}\n</view>
+  <view>出版信息:{{item.published}}\n</view>
+  <view>语言:{{item.booklanguage}}\n</view>
+  <view>销量:{{item.sales}}\n</view>
+  <view>简介:{{item.introduction}}\n</view>
+</view> -->

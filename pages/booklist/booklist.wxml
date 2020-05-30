@@ -1,7 +1,7 @@
 
-  <view wx:for="{{booklist}}" ex:for-index="idx" wx:for-item="item">
+  <view wx:for="{{booklist}}" ex:for-index="idx" wx:for-item="item" bindtap='goToDetail'>
     <!-- <view class="book-list">
-      <view class="book-image" bindtap='goToDetail'>
+      <view class="book-image" >
         <image src="{{item.image}}" mode="aspectFit"></image>
       </view>
     </view> -->

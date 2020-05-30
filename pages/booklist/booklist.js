@@ -29,9 +29,9 @@ Page({
   },
 
 
-  goToDetail: function(item){
+  goToDetail: function(){
     wx.navigateTo({
-      url: 'pages/bookdetail/bookdetail',
+      url: '../bookdetail/bookdetail',
     })
   }
 })
