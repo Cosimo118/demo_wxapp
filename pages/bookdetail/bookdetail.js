@@ -16,7 +16,7 @@ Page({
       },
       success(res){
         for (let item of res.data){
-          if(bookid==item.bookid){
+          if(bookid==item.id){
             that.setData({
               targetbook: item
             })
