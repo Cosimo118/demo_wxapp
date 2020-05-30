@@ -1,0 +1,9 @@
+
+  <view wx:for="{{booklist}}" ex:for-index="idx" wx:for-item="item">
+    <!-- <view class="book-list">
+      <view class="book-image" bindtap='goToDetail'>
+        <image src="{{item.image}}" mode="aspectFit"></image>
+      </view>
+    </view> -->
+    <view>书名:{{item.bookname}}</view>
+  </view>

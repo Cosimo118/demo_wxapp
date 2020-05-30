@@ -1,0 +1,32 @@
+.book-content{
+  margin-top: 90rpx;
+}
+
+.book-list{
+  display: flex;
+  width: 93.3%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:flex-start;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.book-image{
+  flex: 0 0 32%;
+  box-sizing: border-box;
+  min-height: 242rpx;
+}
+
+.book-image image{
+  
+  height: 242rpx;
+  width: 242rpx;
+}
+
+
+.line{
+  width: 100%;
+  border: 1px solid #eee;
+}
