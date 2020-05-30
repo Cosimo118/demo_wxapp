@@ -3,7 +3,7 @@ const app = getApp()
 Page({
 
   data: {
-    booklist : []
+    booklist : [],
   },
 
   onLoad: function(){
@@ -22,7 +22,6 @@ Page({
         that.setData({
           booklist: books
         })
-
       }
       })
 
@@ -30,9 +29,11 @@ Page({
   },
 
 
-  goToDetail: function(){
+  goToDetail: function(e){
+    var viewId = e.target.id;
+    console.log(viewId)
     wx.navigateTo({
-      url: '../bookdetail/bookdetail',
+      url: '../bookdetail/bookdetail?bookid='+viewId,
     })
   }
 })

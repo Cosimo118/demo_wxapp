@@ -2,11 +2,13 @@ const app = getApp()
 
 Page({
   data: {
+    bookid: {},
     targetbook: {}
   },
 
-  onLoad: function(){
-    var bookid = 1000;
+  onLoad: function(options){
+    var bookid = options.bookid;
+    console.log(options)
     var that = this;
     wx.request({
       url: 'http://localhost:8080/Booklist', 
@@ -22,7 +24,6 @@ Page({
             })
           }
         }
-        console.log(that.data.targetbook)
       }
     })
   },
