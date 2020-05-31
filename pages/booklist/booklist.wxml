@@ -1,9 +1,9 @@
 
   <view wx:for="{{booklist}}"  wx:for-index="idx" wx:for-item="item" catchtap='goToDetail'>
-    <!-- <view class="book-list">
+    <view class="book-list">
       <view class="book-image" >
-        <image src="{{item.image}}" mode="aspectFit"></image>
+        <image src="{{item.cover}}" mode="aspectFit"></image>
       </view>
-    </view> -->
-    <view id="{{item.id}}">书名:{{item.bookname}}</view>
+      <view  id="{{item.id}}">书名:{{item.bookname}}</view>
+    </view>
   </view>

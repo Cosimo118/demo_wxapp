@@ -7,4 +7,7 @@
   <view>语言:{{targetbook.booklanguage}}\n</view>
   <view>销量:{{targetbook.sales}}\n</view>
   <view>简介:{{targetbook.introduction}}\n</view>
+  <view class="book-image" >
+    <image src="{{item.cover}}" mode="aspectFit"></image>
+  </view>
 </view>

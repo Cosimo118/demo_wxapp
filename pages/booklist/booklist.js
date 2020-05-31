@@ -27,7 +27,9 @@ Page({
 
       
   },
-
+  onUnload: function(){
+    
+  },
 
   goToDetail: function(e){
     var viewId = e.target.id;

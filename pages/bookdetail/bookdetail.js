@@ -28,11 +28,8 @@ Page({
     })
   },
 
-  //这里也有点问题，总会回到初始页面
   onUnload: function(){
-    wx.navigateBack({
-      delta: 1
-    })
+    
   },
 
 
